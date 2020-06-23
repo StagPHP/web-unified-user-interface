@@ -9,24 +9,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/assets/vendor/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="/assets/css/stag-uui.min.css">
+  <link rel="stylesheet" href="/assets/font-icons/style.css">
 </head>
 
 <body>
   <header class="header-tradational-left bg-light">
     <div class="container">
       <div class="row">
-        <div class="col-lg-3 col-md-12">
-          <div class="branding p-2">
-            <img class="logo h-100" src="https://stagphp.io/assets/media/logo/stagphp-logo-dark.png"/>
+        <div class="col-lg-3 col-md-12 nav-branding">
+          <div class="drawer pr-3">
+            <span class="icon icon-menu"></span>
+            <span class="pl-2 font-weight-bold">MENU</span>
+          </div>
+          <div class="logo p-2">
+            <img class="h-100" src="https://stagphp.io/assets/media/logo/stagphp-logo-dark.png"/>
           </div>
         </div>
-        <div class="col-lg-9 col-md-12 position-md-absolute">
-          <nav class="nav-menu-container">
+        <div class="col-lg-9 col-md-12 nav-menu-container">
+          <nav>
             <ul class="menu-item-list float-lg-right">
               <li class="menu-item px-3">
                 <a href="#">Home</a>
               </li>
-              <li class="menu-item px-3">
+              <li class="menu-item parent-dropdown-menu px-3">
                 <a class="parent-dropdown level-1" href="#">Services</a>
                 <ul class="child-dropdown level-1 bg-light">
                   <li class="menu-item px-3">
@@ -35,7 +40,7 @@
                   <li class="menu-item px-3">
                     <a href="#">Application Development</a>
                   </li>
-                  <li class="menu-item px-3">
+                  <li class="menu-item parent-dropdown-menu px-3">
                     <a class="parent-dropdown level-2" href="#">Digital Marketing</a>
                     <ul class="child-dropdown level-2 bg-light">
                       <li class="menu-item px-3">

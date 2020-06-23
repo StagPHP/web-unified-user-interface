@@ -2,10 +2,28 @@ $height: 70px;
 $dropdown_menu_width: 240px;
 
 .header-tradational-left{
-  .branding{
+  .nav-branding{
     position: relative;
-    height: $height;
+
+    >div{
+      float: left;
+      height: $height;
+    }
+
+    .drawer{
+      >span{
+        float: left;
+        height: $height;
+        line-height: $height;
+        cursor: pointer;
+      }
+
+      .icon-menu{
+        font-size: 30px;
+      }
+    }
   }
+
   .nav-menu-container{
     ul,li{
       list-style: none;
@@ -90,4 +108,15 @@ $dropdown_menu_width: 240px;
       }
     }
   }
+
+  .nav-menu-container{
+    .parent-dropdown-menu:hover,
+    .parent-dropdown-menu:focus,
+    .parent-dropdown-menu:active{
+      >.child-dropdown{
+        display: block !important;
+      }
+    }
+  }
 }
+
