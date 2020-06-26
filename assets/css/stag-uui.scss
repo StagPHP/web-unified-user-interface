@@ -1,1 +1,10 @@
-@import "headers/header-tradational-left"
+// Color Shades
+@import "variables/color";
+
+// Fonts Colors
+@import "colors/font";
+// Basic
+@import "colors/base";
+
+// Header Nested Dropdown Right
+@import "headers/header-ndd-right";

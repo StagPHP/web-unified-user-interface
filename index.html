@@ -13,66 +13,121 @@
 </head>
 
 <body>
-  <header class="header-tradational-left bg-light">
+
+  <!-- Header -->
+  <header class="header-ndd-right">
     <div class="container">
       <div class="row">
-        <div class="col-lg-3 col-md-12 nav-branding">
-          <div class="drawer pr-3">
-            <span class="icon icon-menu"></span>
-            <span class="pl-2 font-weight-bold">MENU</span>
+        <div class="col-12 header-main-container">
+
+          <div class="cta-blocks">
+            <a class="">
+              <span class="icon icon-notifications"></span>
+            </a>
           </div>
-          <div class="logo p-2">
-            <img class="h-100" src="https://stagphp.io/assets/media/logo/stagphp-logo-dark.png"/>
+
+          <div class="menu-container">
+            <!-- Side Menu Drawer for Mobile Device -->
+            <div class="drawer pr-3">
+              <span class="icon icon-menu"></span>
+              <span class="pl-2 font-weight-bold">MENU</span>
+            </div>
+
+            <!-- Navigation Menu -->
+            <nav class="shadowed">
+              <ul>
+                <li class="menu-item">
+                  <a href="#">Home</a>
+                </li>
+                <li class="menu-item nested-dropdown">
+                  <a href="#">
+                    Services
+                    <span class="icon icon-keyboard_arrow_down"></span>
+                  </a>
+                  <!-- 1st Level Dropdown -->
+                  <ul class="nested-dropdown-menu">
+                    <li class="menu-item">
+                      <a href="#">Website Development</a>
+                    </li>
+                    <li class="menu-item nested-dropdown">
+                      <a href="#">
+                        Application Development
+                        <span class="icon icon-keyboard_arrow_down d-lg-none d-inline-block"></span>
+                        <span class="icon icon-keyboard_arrow_right d-lg-inline-block d-none"></span>
+                      </a>
+                      <!-- 2nd Level Dropdown -->
+                      <ul class="nested-dropdown-menu open-menu-right">
+                        <li class="menu-item">
+                          <a href="#">Web Application</a>
+                        </li>
+                        <li class="menu-item">
+                          <a href="#">Mobile Application</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu-item nested-dropdown">
+                      <a href="#">
+                        Digital Marketing
+                        <span class="icon icon-keyboard_arrow_down d-lg-none d-inline-block"></span>
+                        <span class="icon icon-keyboard_arrow_right d-lg-inline-block d-none"></span>
+                      </a>
+                      <!-- 2nd Level Dropdown -->
+                      <ul class="nested-dropdown-menu open-menu-right">
+                        <li class="menu-item">
+                          <a href="#">On Page SEO</a>
+                        </li>
+                        <li class="menu-item">
+                          <a href="#">Off Page SEO</a>
+                        </li>
+                        <li class="menu-item">
+                          <a href="#">Online Advertising</a>
+                        </li>
+                        <li class="menu-item">
+                          <a href="#">Social Media Marketing</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item nested-dropdown">
+                  <a href="#">
+                    Training
+                    <span class="icon icon-keyboard_arrow_down"></span>
+                  </a>
+                  <!-- 1st Level Dropdown -->
+                  <ul class="nested-dropdown-menu">
+                    <li class="menu-item">
+                      <a href="#">Website Development</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Web App Development</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Mobile App Development</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Digital Marketing</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item">
+                  <a href="#">Official Blog</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#">About</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#">Contact</a>
+                </li>
+              </ul>
+            </nav>
           </div>
-        </div>
-        <div class="col-lg-9 col-md-12 nav-menu-container">
-          <nav>
-            <ul class="menu-item-list float-lg-right">
-              <li class="menu-item px-3">
-                <a href="#">Home</a>
-              </li>
-              <li class="menu-item parent-dropdown-menu px-3">
-                <a class="parent-dropdown level-1" href="#">Services</a>
-                <ul class="child-dropdown level-1 bg-light">
-                  <li class="menu-item px-3">
-                    <a href="#">Website Development</a>
-                  </li>
-                  <li class="menu-item px-3">
-                    <a href="#">Application Development</a>
-                  </li>
-                  <li class="menu-item parent-dropdown-menu px-3">
-                    <a class="parent-dropdown level-2" href="#">Digital Marketing</a>
-                    <ul class="child-dropdown level-2 bg-light">
-                      <li class="menu-item px-3">
-                        <a href="#">On Page SEO</a>
-                      </li>
-                      <li class="menu-item px-3">
-                        <a href="#">Off Page SEO</a>
-                      </li>
-                      <li class="menu-item px-3">
-                        <a href="#">Online Advertising</a>
-                      </li>
-                      <li class="menu-item px-3">
-                        <a href="#">Social Media Marketing</a>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="menu-item px-3">
-                <a href="#">Training</a>
-              </li>
-              <li class="menu-item px-3">
-                <a href="#">Official Blog</a>
-              </li>
-              <li class="menu-item px-3">
-                <a href="#">About</a>
-              </li>
-              <li class="menu-item px-3">
-                <a href="#">Contact</a>
-              </li>
-            </ul>
-          </nav>
+
+          <!-- Logo for branding -->
+          <div class="logo">
+            <img class="h-100 p-3" src="/assets/media/wuui-logo/logo-md.png"/>
+          </div>
+
         </div>
       </div>
     </div>
