@@ -1,49 +1,8 @@
-$bg_shade_x1: #373635;
-$bg_shade_x2: #474645;
-$bg_shade_x3: #575655;
-$bg_shade_x4: #d7d6d5;
-$bg_shade_x5: #e7e6e5;
-$bg_shade_x6: #f7f6f5;
-
+@import 'dark-gray/variable';
 
 body.dark-shade{
   background-color: $bg_shade_x2;
 
-  .bg-shade-1{
-    background-color: $bg_shade_x1;
-  }
-  .bg-shade-2{
-    background-color: $bg_shade_x2;
-  }
-  .bg-shade-3{
-    background-color: $bg_shade_x3;
-  }
-  .bg-shade-4{
-    background-color: $bg_shade_x4;
-  }
-  .bg-shade-5{
-    background-color: $bg_shade_x5;
-  }
-  .bg-shade-6{
-    background-color: $bg_shade_x6;
-  }
-
-  .color-shade-1{
-    background-color: $bg_shade_x1;
-  }
-  .color-shade-2{
-    background-color: $bg_shade_x2;
-  }
-  .color-shade-3{
-    background-color: $bg_shade_x3;
-  }
-  .color-shade-4{
-    background-color: $bg_shade_x4;
-  }
-  .color-shade-5{
-    background-color: $bg_shade_x5;
-  }
-  .color-shade-6{
-    background-color: $bg_shade_x6;
-  }
+  @import 'dark-gray/basic';
+  @import 'dark-gray/elements/nested-dropdown';
 }

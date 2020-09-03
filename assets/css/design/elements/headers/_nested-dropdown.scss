@@ -20,10 +20,6 @@ $sidenav_menu_padding_y: 10px;
     margin: 0;
   }
 
-  nav{
-    background-color: $color_more_light;
-  }
-
   .cta-blocks{
     float: right;
     >a{
@@ -127,6 +123,7 @@ $sidenav_menu_padding_y: 10px;
 
       .nested-dropdown-menu{
         display: none;
+        box-shadow: none !important;
 
         .menu-item{
           padding-left: $sidenav_menu_padding_x;
@@ -201,7 +198,6 @@ $sidenav_menu_padding_y: 10px;
             display: none;
             width: $dropdown_menu_width;
             top: $height;
-            background-color: $color_extra_light;
     
             .menu-item{
               padding: 0 $dropdown_menu_padding_x;
@@ -258,13 +254,6 @@ $sidenav_menu_padding_y: 10px;
               }
             }
           }
-        }
-      }
-
-      nav.shadowed{
-        .nested-dropdown-menu{
-          box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-          border-radius: 3px;
         }
       }
     }
