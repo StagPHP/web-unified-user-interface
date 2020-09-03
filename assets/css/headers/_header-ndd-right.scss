@@ -208,6 +208,7 @@ $sidenav_menu_padding_y: 10px;
     
             .menu-item{
               padding: 0 $dropdown_menu_padding_x;
+              z-index: 9;
 
               a{
                 display: block;
